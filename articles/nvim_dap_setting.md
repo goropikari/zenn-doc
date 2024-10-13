@@ -60,7 +60,7 @@ dap.adapters.bar = {
 
 - `dap.configurations.foo` の設定が読み出される
 - ユーザーが好みの設定を選ぶ
-- 例として1番目の設定 (`name = "debug sample 1"`) を選んだとするとの `type` が `foo` なので `dap.adapters.hoge` が使われる
+- 例として1番目の設定 (`name = "debug sample 1"`) を選んだとするとの `type` が `foo` なので `dap.adapters.foo` が使われる
 
 という流れになる。同様に2番目の configurations を選択すると `type` が `bar` のため `dap.adapters.bar` が使用される。
 
